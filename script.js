@@ -1,7 +1,7 @@
 const countdownElement = document.getElementById("countdown");
 
 // Set the target date and time
-const targetDate = new Date("2024-12-23T22:30:00").getTime();
+const targetDate = new Date("2024-12-24T22:30:00").getTime();
 
 // Store the target date in localStorage if not already set
 if (!localStorage.getItem("countdownTarget")) {
