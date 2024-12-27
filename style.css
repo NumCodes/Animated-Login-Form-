@@ -13,12 +13,44 @@ body {
     background-image: url("img/background.jpg");
     width: 100%;
 }
-  body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
+  
     #countdown {
       font-size: 2rem;
       color:red;
     }
+    
+    
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.time {
+    margin: 0 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.time::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#days::after {
+    content: "Days";
+}
+
+#hours::after {
+    content: "Hours";
+}
+
+#minutes::after {
+    content: "Minutes";
+}
+
+#seconds::after {
+    content: "Seconds";
+}
